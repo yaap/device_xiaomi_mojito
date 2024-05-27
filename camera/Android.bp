@@ -19,3 +19,11 @@ prebuilt_etc {
     sub_dir: "camera",
     vendor: true,
 }
+
+cc_library_static {
+    name: "libcameraservice_extension.sunny",
+    srcs: ["CameraProviderExtension.cpp"],
+    include_dirs: [
+        "frameworks/av/services/camera/libcameraservice/common"
+    ],
+}
