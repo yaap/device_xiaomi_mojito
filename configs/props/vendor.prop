@@ -25,7 +25,6 @@ vendor.audio.feature.anc_headset.enable=true
 vendor.audio.feature.audiozoom.enable=false
 vendor.audio.feature.battery_listener.enable=false
 vendor.audio.feature.compr_cap.enable=false
-vendor.audio.feature.compr_voip.enable=false
 vendor.audio.feature.compress_in.enable=false
 vendor.audio.feature.compress_meta_data.enable=true
 vendor.audio.feature.concurrent_capture.enable=false
@@ -81,7 +80,7 @@ vendor.audio.volume.headset.gain.depcal=true
 vendor.audio_hal.in_period_size=144
 vendor.audio_hal.period_multiplier=3
 vendor.audio_hal.period_size=192
-vendor.voice.path.for.pcm.voip=false
+use.voice.path.for.pcm.voip=true
 
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
